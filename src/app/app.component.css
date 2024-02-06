@@ -1,0 +1,12 @@
+/* Add this to your styles.css or your component's style file */
+.fixed-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Adjust the z-index based on your layout */
+  background-color: #ffffff; /* Set the background color you want */
+  /* Add other styling as needed */
+}
+.styling {
+  background: whitesmoke;
+}

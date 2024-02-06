@@ -1,0 +1,10 @@
+<div class="container">
+  <div class="box" *ngFor="let i of news?.articles">
+    <div class="image_styling"><img [src]="i?.urlToImage" /></div>
+    <div class="title">{{ i?.title }}</div>
+    <div class="content">{{ i?.content }}</div>
+    <div class="desc">
+      <a class="custom-btn" href="{{ i?.url }}">for more info</a>
+    </div>
+  </div>
+</div>

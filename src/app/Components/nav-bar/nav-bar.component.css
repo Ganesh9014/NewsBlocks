@@ -1,0 +1,23 @@
+.navbarstyle {
+  background-color: #ece9e9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.div2 {
+  margin-left: 80%;
+}
+.div1 {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-weight: lighter;
+}
+.title1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+  font-size: larger;
+}
